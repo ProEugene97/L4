@@ -16,13 +16,6 @@ public class Excel {
     private static String[] List = {"Имя", "Фамилия", "Отчество", "Возраст", "Пол", "Дата Рождения", "ИНН", "Почтовый индекс", "Страна", "Область", "Город", "Улица", "Дом", "Квартира"};
 
     public static void main(String[] args) {
-       /* try {
-
-        } catch (UnirestException e) {
-            e.printStackTrace();
-        }*/
-
-
         HSSFWorkbook workbook = new HSSFWorkbook();
         HSSFSheet sheet = workbook.createSheet("Новый лист");
         int rowNum = 0;
